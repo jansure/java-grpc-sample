@@ -90,6 +90,9 @@ message RPCDateResponse {
 mvn protobuf:compile && mvc protobuf:compile-custom
 ```
 
+<img width="1722" alt="图片" src="https://user-images.githubusercontent.com/25276270/166901844-1cd5663d-a158-4dc7-9758-ca4f46341239.png">
+
+
 
 ## 实现接口
 ```java
@@ -135,5 +138,18 @@ public class GRPCServer {
 }
 
 ```
+
+## 启动服务端
+
+<img width="1661" alt="图片" src="https://user-images.githubusercontent.com/25276270/166902057-3691fe4b-5c20-461b-bcf0-effa605470a7.png">
+
+## 通过最新版(我的是9.17.2)访问getDate  grpc接口
+
+这一步最好是定义个跟server端相同的proto
+
+
+<img width="1557" alt="图片" src="https://user-images.githubusercontent.com/25276270/166902187-2b6274fe-ef31-46fa-a056-1b09154f3e8d.png">
+
+
 
 
